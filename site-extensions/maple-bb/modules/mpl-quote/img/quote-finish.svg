@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="23px" viewBox="0 0 29 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="09-Quote-&amp;-Media-Coverage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="375-Small-–-01" transform="translate(-173.000000, -333.000000)">
+            <rect id="bg-–-White" fill="#FFFFFF" x="0" y="0" width="375" height="567"></rect>
+            <g id="Quote" transform="translate(20.000000, 141.000000)">
+                <rect id="bg-–-Turquoise-25%-tint" fill="#EDF6F4" x="0" y="0" width="337" height="376" rx="8"></rect>
+                <text font-family="Helvetica" font-size="21" font-weight="normal" line-spacing="24" fill="#212121">
+                    <tspan x="28" y="109">Virtual medicine isn’t new, but </tspan>
+                    <tspan x="29.7277832" y="133">the Maple app takes things to </tspan>
+                    <tspan x="111.451416" y="157">a new level! </tspan>
+                </text>
+                <g id="icons" transform="translate(153.000000, 39.000000)" fill="#4BAEB3">
+                    <path d="M5.621,153 C7.496,153 8.934,153.703 9.938,155.108 C10.942,156.513 11.443,158.353 11.443,160.628 C11.443,164.041 10.54,167.002 8.733,169.511 C6.927,172.021 4.786,173.943 2.309,175.283 L0.402,172.673 C3.815,169.928 5.556,167.118 5.621,164.242 C4.083,164.443 2.762,164.024 1.656,162.987 C0.554,161.949 -1.0658141e-14,160.561 -1.0658141e-14,158.822 C-1.0658141e-14,157.081 0.537,155.676 1.607,154.606 C2.678,153.535 4.017,153 5.621,153 M22.376,153 C24.251,153 25.689,153.703 26.693,155.108 C27.696,156.513 28.198,158.353 28.198,160.628 C28.198,164.041 27.295,167.002 25.488,169.511 C23.682,172.021 21.541,173.943 19.064,175.283 L17.157,172.673 C20.569,169.928 22.31,167.118 22.376,164.242 C20.837,164.443 19.517,164.024 18.412,162.987 C17.309,161.949 16.756,160.561 16.756,158.822 C16.756,157.081 17.274,155.676 18.311,154.606 C19.35,153.535 20.706,153 22.376,153" id="icon-–-quotation-right"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,355 @@
+/* Stylesheet for maple animation
+   Developed by Aakash */
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+
+#maple-anim-wrapper *, #maple-anim-wrapper {
+	font-family: 'Roboto', sans-serif;
+	transition: all ease-out .3s;
+	box-sizing: content-box !important;
+}
+
+#maple-anim-wrapper {
+	height: 450px !important;
+	width: 318px !important;
+	padding: 0px 49px;
+	overflow-y: hidden;
+	border-radius: 5px;
+	border: 0px solid #41a4aa;
+	display: none;
+}
+
+#maple-anim-inwrapper {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#maple-anim-tofade {
+	transform: scale(.8);
+	transform-origin: bottom right;
+	color: white;
+}
+
+#maple-anim-tofadex, .maple-anim-select-button {
+	color: #e47862;
+	font-size:12px;
+	margin-top: 10px;
+}
+
+#maple-anim-tocome {
+	color: rgb(0,0,0);
+}
+
+.maple-anim-desinput {
+	position: absolute;
+	width: 92%;
+	padding: 4%;
+	top: 120px;
+	font-size: initial;
+	line-height: initial;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #9e9e9e;
+	color: #9e9e9e;
+	opacity: 0;
+}
+
+.maple-anim-redbtn {
+	position: absolute;
+	width: 96%;
+	padding: 4% 2%;
+	top: 260px;
+	background-color: #e47862;
+	color: white;
+	border: 0px solid white;
+	border-radius: 5px;	
+	font-size: initial;
+	line-height: initial;
+	text-align: center;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.maple-anim-inwhitebox {
+	position: absolute;
+	width: 92%;
+	padding: 4%;
+	border-radius: 5px;
+	/*background: linear-gradient(to top, white, transparent);*/
+	background-color: white;
+	border: 1px solid #c3c3c3;
+	color: rgb(0,0,0);
+	font-size: 15px;
+	line-height: initial;
+	opacity: 1;
+}
+
+.maple-anim-rtime {
+	position: absolute;
+	top: -25px;
+	right: 0px;
+	color: #4A4A4A
+}
+
+.maple-anim-ltime {
+	position: absolute;
+	top: -25px;
+	left: 0px;
+	color: #4A4A4A
+}
+
+.maple-anim-cimage {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 50%;
+	width: 40px;
+	transform: translate(50%,50%);
+}
+
+#maple-anim-cx2 {
+	transform: translate(-50%,50%);
+	left: 0px;
+}
+
+#maple-anim-p2first {
+	opacity: 0;
+	bottom: 120px;
+	transform: scale(.7);
+	transform-origin: bottom right;
+}
+
+#maple-anim-p2third {
+	opacity: 0;
+	bottom: 120px;
+	text-align: right;
+	max-width: 100%;
+	width: auto;
+	right: 0px;
+	transform: scale(.7);
+	transform-origin: bottom right;
+}
+
+#maple-anim-p2second {
+	opacity: 0;
+	bottom: 140px;
+	transform: scale(.7);
+	transform-origin: bottom left;
+}
+
+
+#maple-anim-tocircle {
+	position: absolute;
+	bottom: 140px;
+	width: 40px;
+	left: 50%;
+	transform: translateX(-50%) scale(0);
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #cbcbcb;
+	transition: all ease-out .4s;
+}
+
+#maple-anim-incircle {
+	background-color: #e47862 ;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: all ease-out .5s;
+}
+
+#maple-anim-doctext {
+	color: #e47862;
+	position: absolute;
+	bottom: 100px;
+	opacity: 0;
+	text-align: center;
+	font-size: initial;
+	line-height: initial;
+	transition: all ease-out .4s;
+}
+
+/* Phase 3 */
+.maple-anim-callbox {
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #9e9e9e;
+	border-radius: 10px;
+	position: absolute;
+	top: 100px;
+	opacity: 0;
+	transform: translateY(20px);
+}
+
+.maple-anim-callimage {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.maple-anim-incallbox {
+	margin: 10%;
+	color: #4A4A4A;
+	line-height: 1.5
+}
+
+#maple-anim-accept, #maple-anim-reject {
+	position: absolute;
+	bottom: 0px;
+	width: 40px;
+	border-radius: 50%;
+	height: 40px;
+	transform: translateY(50%) scale(0);
+	padding: 10px;
+	color: white;
+}
+
+
+#maple-anim-accept img, #maple-anim-reject img {
+	width: 28px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#maple-anim-accept {
+	right: 25%;
+	background-color: #86DE95;
+}
+
+#maple-anim-reject {
+	left: 25%;
+	background-color: #EF7373;
+	transform: translateY(50%) rotate(135deg) scale(0);
+}
+
+.maple-anim-cend {
+	color: #9e9e9e;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 100px;
+	opacity: 0;
+	font-size: 16px;
+}
+
+.maple-anim-pharmbox {
+	position: absolute;
+	width: 92%;
+	padding: 4%;
+	border-radius: 5px;
+	/*background: linear-gradient(to top, white, transparent);*/
+	background-color: white;
+	border: 1px solid #41a4aa;
+	color: #000000;
+	opacity: 0;
+	line-height: 25px;
+	overflow: hidden
+}
+
+#maple-anim-p1 {
+	top: 100px;
+	transform: scale(.7) translateY(60px);
+	transform-origin: top right;
+}
+
+#maple-anim-p2 {
+	top: 200px;
+	transform: scale(.7);
+	transform-origin: top left;
+	border: 1px solid #c3dfdb;
+}
+
+#maple-anim-rb2 {
+	top: 300px;
+}
+
+.maple-anim-triangle {
+	position: absolute;
+	top: -2px;
+	right: -2px;
+	width: 0;
+  	height: 0;
+  	border-top: 50px solid #41a4aa;
+  	border-left: 50px solid transparent;
+}
+
+.maple-anim-select-pharm {
+	position: absolute;
+	bottom: 338px;
+	font-size: 15px;
+	padding-left: 4px;
+	opacity: 0;
+}
+
+.maple-anim-pharms {
+	font-size: 14px;
+	line-height: 22px;
+	padding: 5% 4% 3% 4%
+}
+
+#maple-anim-p4first {
+	bottom: 220px;
+	opacity: 0;
+	overflow: hidden;
+	transform: scale(.7);
+	transform-origin: bottom right;
+}
+
+#maple-anim-p4second {
+	bottom: 100px;
+	opacity: 0;
+	transform: scale(.7);
+	overflow: hidden;
+	transform-origin: bottom right;
+}
+
+#maple-anim-p4third {
+	bottom: -20px;
+	opacity: 0;
+	transform: scale(.7);
+	overflow: hidden;
+	transform-origin: bottom right;
+}
+
+#maple-anim-p4fourth {
+	bottom: 160px;
+	opacity: 0;
+	transform: scale(.7);
+	overflow: hidden;
+	transform-origin: bottom left;
+	font-size: 22px;
+}
+
+.maple-anim-maping {
+	position: absolute;
+	height: 100%;
+	right: -4px;
+	top: 0px;
+}
+
+#maple-anim-rx, #maple-anim-pala {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	z-index: +1;
+	width: 15px;
+}
+
+#maple-anim-thumbsup {
+	width: 24px;
+	transform: translateY(-4px);
+}
+
+@media screen and (max-width: 600px)
+{
+	#maple-anim-wrapper {
+		transform: scale(.7);
+		transform-origin: left;
+	}
+}

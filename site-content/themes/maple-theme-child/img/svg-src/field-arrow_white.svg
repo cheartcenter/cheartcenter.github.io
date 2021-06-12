@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer/Desktop" transform="translate(-909.000000, -58.000000)" stroke="#FFFFFF">
+            <g id="Footer">
+                <g id="Newsletter" transform="translate(730.000000, 0.000000)">
+                    <g id="Input" transform="translate(0.000000, 53.000000)">
+                        <g id="Group-2" transform="translate(179.000000, 5.000000)">
+                            <polyline id="Path-6" points="9 0 15 6.92139561 9.38969323 14"></polyline>
+                            <path d="M15,7 L0,7" id="Path-7"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

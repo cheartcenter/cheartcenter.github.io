@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="7px" viewBox="0 0 8 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>svg-half-star</title>
+    <desc>Created with Sketch.</desc>
+    <g id="05-App-CTA-&amp;-Reviews" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1240-Large-–-01" transform="translate(-238.000000, -422.000000)" fill="#FFD601">
+            <g id="svg-half-star" transform="translate(238.000000, 422.000000)">
+                <polygon id="icon-–-star-small-BG-0.3-opacity" opacity="0.3" points="4.1297 0.00012 4.9987 2.67412 7.8097 2.67412 5.5357 4.32612 6.4037 7.00012 4.1297 5.34812 1.8557 7.00012 2.7237 4.32612 0.4497 2.67412 3.2607 2.67412"></polygon>
+                <polygon id="icon-–-star-small-HALF" points="4.1301 -8e-05 3.2611 2.67392 0.4491 2.67392 2.7241 4.32592 1.8551 6.99992 4.1301 5.34792"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
